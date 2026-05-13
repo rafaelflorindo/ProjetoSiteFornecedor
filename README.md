@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Projeto Site Fornecedor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém um sistema de gestão de fornecedores desenvolvido para facilitar o cadastro, a organização e o monitoramento de parceiros comerciais. O projeto foca em usabilidade e integridade de dados através de uma interface web intuitiva.
 
-## Available Scripts
+## 🚀 Sobre o Projeto
+O **Projeto Site Fornecedor** é uma aplicação prática que demonstra o uso de arquitetura web moderna, integrando frontend e backend para operações de banco de dados (CRUD). Ele foi estruturado para ser modular, facilitando a manutenção e a escalabilidade.
 
-In the project directory, you can run:
+## 🛠️ Tecnologias Utilizadas
+* **Arquitetura:** MVC (Model-View-Controller)
+* **Backend:** PHP / Java
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Banco de Dados:** MySQL
+* **Ambiente:** Servidor Apache (XAMPP/WAMP)
 
-### `npm start`
+## 📌 Principais Funcionalidades
+* **Gestão de Fornecedores:** Cadastro completo (Razão Social, CNPJ, Contatos).
+* **Filtros de Busca:** Localização rápida de fornecedores por nome ou documento.
+* **Painel de Visualização:** Listagem dinâmica e organizada dos dados.
+* **Edição e Exclusão:** Controle total sobre os registros armazenados (CRUD).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔧 Como Instalar e Rodar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/rafaelflorindo/ProjetoSiteFornecedor.git](https://github.com/rafaelflorindo/ProjetoSiteFornecedor.git)
+    ```
 
-### `npm test`
+2.  **Configure o Banco de Dados:**
+    * Crie um banco de dados no seu gerenciador (MySQL).
+    * Importe o arquivo `.sql` presente na raiz do projeto ou na pasta `/sql`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.  **Hospedagem Local:**
+    * Mova a pasta do projeto para o diretório `htdocs` (XAMPP) ou `www` (WAMP).
+    * Inicie os serviços de Apache e MySQL no seu painel de controle.
 
-### `npm run build`
+4.  **Acesse no Navegador:**
+    * URL: `http://localhost/ProjetoSiteFornecedor`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👨‍🏫 Autor
+**Rafael Alves Florindo** Professor de TI e Desenvolvedor Full Stack. Especialista em Gestão do Conhecimento e Desenvolvimento de Sistemas Web.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Este projeto é parte de um portfólio acadêmico e profissional, demonstrando competências em desenvolvimento de software e arquitetura de sistemas.*
