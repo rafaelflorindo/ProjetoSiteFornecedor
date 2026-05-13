@@ -1,0 +1,25 @@
+.headerTopo nav {
+  width: 100%;
+}
+
+.headerTopo nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.headerTopo nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #313438;
+  transition: 0.3s;
+}
+
+.headerTopo nav li a:hover {
+  color: #ff4a23;
+}

@@ -1,0 +1,133 @@
+.fornecedores-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F6F6F6;
+    padding: 60px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fornecedores-content {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.fornecedores-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fornecedores-topo h1 {
+    font-size: 36px;
+    color: #313438;
+    margin: 0;
+}
+
+/* Container dos Cards usando Flex */
+.fornecedores-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards quebrem a linha */
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+/* O Card */
+.fornecedor-card {
+    background-color: #FFFFFF;
+    flex: 1 1 300px; /* Base de 300px, cresce e diminui conforme espaço */
+    max-width: 380px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 4px solid darkgreen;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.fornecedor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.icon-box {
+    background-color: #f0fdf4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.id-tag {
+    font-size: 12px;
+    color: #999;
+    font-weight: bold;
+}
+
+.card-body h3 {
+    font-size: 22px;
+    color: #313438;
+    margin: 0 0 10px 0;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 15px;
+}
+
+.card-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkgreen;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Botão Adicionar */
+.btn-adicionar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.btn-adicionar:hover {
+    background-color: #004d00;
+}
+
+/* Spinner */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ddd;
+    border-top: 4px solid darkgreen;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
